@@ -6,10 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Kategori extends Model
 {
-    protected $fillable = array ('nama_kategori', 'slug');
+    // protected $fillable = array ('nama_kategori', 'slug');
     public $timestamps = true;
 
-    public function artikel(){
+    public function artikel()
+    {
         return $this->hasMany('App\Artikel', 'kategori_id');
     }
 }
