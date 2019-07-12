@@ -16,42 +16,42 @@ class SiswaController extends Controller
     {
 
         $siswa = [
-                [
-                "nama" => "Riffan",
+            [
+                "nama" => "ifan",
                 "kelas" => "12 Rpl 2",
                 "umur" => 17,
                 "hoby" => ['Badminton', 'Sepak_bola', 'Gamers'],
                 "jenis_kelamin" => "Laki-laki"
-                ],
-                [
+            ],
+            [
                 "nama" => "ilyoso",
                 "kelas" => "12 Rpl 1",
                 "umur" => 20,
                 "hoby" => ['Beklen', 'Gamers'],
                 "jenis_kelamin" => "Laki-laki"
-                ],
-                [
+            ],
+            [
                 "nama" => "harry",
                 "kelas" => "12 Rpl 2",
                 "umur" => 19,
                 "hoby" => ['Beklen', 'voli'],
                 "jenis_kelamin" => "Laki-laki"
-                ],
-                [
-                "nama" => "sephyani",
+            ],
+            [
+                "nama" => "bagas",
                 "kelas" => "12 Rpl 2",
                 "umur" => 18,
                 "hoby" => ['dance', 'tidur'],
                 "jenis_kelamin" => "Perempuan"
-                ],
-                [
+            ],
+            [
                 "nama" => "muhaimin",
                 "kelas" => "12 Rpl 1",
                 "umur" => 17,
                 "hoby" => ['Sepak_bola', 'Gamers'],
                 "jenis_kelamin" => "Laki-laki"
-                ] 
-            ];
+            ]
+        ];
         return $siswa;
     }
     public function index()

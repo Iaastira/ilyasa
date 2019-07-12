@@ -23,17 +23,11 @@ Route::get('/about', function () {
 Route::get('/kategori', function () {
     return view('kategori');
 });
-Route::get('/blogdetail', function () {
-    return view('blogdetail');
-});
-Route::get('/blogsingle', function () {
-    return view('blogsingle');
-});
-Route::get('/games', function () {
-    return view('games');
+Route::get('/blog', function () {
+    return view('blog');
 });
 Route::group(
-    ['prefix' => 'admin','middleware' => ['auth']],
+    ['prefix' => 'admin', 'middleware' => ['auth']],
     function () {
         Route::get('/', function () {
             return view('admin.index');
@@ -41,8 +35,9 @@ Route::group(
         Route::resource('kategori', 'KategoriController');
         Route::resource('tag', 'TagController');
         Route::resource('artikel', 'ArtikelController');
-    });
-Auth::routes(); 
+    }
+);
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 

@@ -7,22 +7,21 @@
               <div class="card">
                 <div class="card-header"></div>
                    <br>
-                   <form action="{{ route('kategori.update', $kategori->id)}}" method="post">
+                   <form action="{{ route('kategori.index')}}" method="post">
                     <input type="hidden" name="_method" value="PATCH">
                     {{ csrf_field()}}
                     <div class="form-group">
-                      <label for="exampleFormControlInput1">Nama Kategori</label>
-                      <input type="text" class="form-control" name="nama_kategori" value="{{ $kategori->nama_kategori }}">
+                      <label for="exampleFormControlInput1">Nama kategori</label>
+                      <input type="text" class="form-control" name="nama_kategori" value="{{ $kategori->nama_kategori }}"  disabled>
                     </div>
-                    <button type="submit" class="btn btn-outline-success">Simpan data</button>
-                    <div class="form-group">
+                       <div class="form-group">
                             <a href="{{ url('kategori') }}" class="btn btn-outline-info">Kembali</a>
-                      </div>
+                        </div>
                     </form>
                   </div>
               </div>
             </div>
-        </div>
-        </div>
+</div>
+</div>
 
 @endsection

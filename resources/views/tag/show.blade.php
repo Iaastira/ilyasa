@@ -7,22 +7,21 @@
               <div class="card">
                 <div class="card-header"></div>
                    <br>
-                   <form action="{{ route('tag.update', $tag->id)}}" method="post">
+                   <form action="{{ route('tag.index')}}" method="post">
                     <input type="hidden" name="_method" value="PATCH">
                     {{ csrf_field()}}
                     <div class="form-group">
-                      <label for="exampleFormControlInput1">Nama Tag</label>
-                      <input type="text" class="form-control" name="nama_tag" value="{{ $tag->nama_tag }}">
+                      <label for="exampleFormControlInput1">Nama tag</label>
+                      <input type="text" class="form-control" name="nama_tag" value="{{ $tag->nama_tag }}"  disabled>
                     </div>
-                    <button type="submit" class="btn btn-outline-success">Simpan data</button>
-                    <div class="form-group">
+                       <div class="form-group">
                             <a href="{{ url('tag') }}" class="btn btn-outline-info">Kembali</a>
-                      </div>
+                        </div>
                     </form>
                   </div>
               </div>
             </div>
-        </div>
-        </div>
-        
+</div>
+</div>
+
 @endsection
