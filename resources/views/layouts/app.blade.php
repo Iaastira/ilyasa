@@ -11,6 +11,12 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('assets/backend/ckeditor/ckeditor.js') }}"></script>
+    <script src="{{ asset('assets/backend/select2/dist/js/select2.min.js') }}"></script>
+   
+    <script>
+        CKEDITOR.replace('ckeditor');
+    </script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,6 +24,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+     <script src="{{ asset('assets/backend/select2-4.0.7/dist/css/select2.min.css')}}"></script>
 </head>
 <body>
     <div id="app">
@@ -33,7 +40,15 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('kategori.index') }}"><b>{{ __('Kategori') }}</b></a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('tag.index') }}"><b>{{ __('Tag') }}</b></a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('artikel.index') }}"><b>{{ __('Artikel') }}</b></a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

@@ -48,9 +48,9 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', 'db4free.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'pkl_ifan'),
-            'username' => env('DB_USERNAME', 'pkl_ifan'),
-            'password' => env('DB_PASSWORD', 'combro123'),
+            'database' => env('DB_DATABASE', 'ilyasa'),
+            'username' => env('DB_USERNAME', 'ilyasa'),
+            'password' => env('DB_PASSWORD', 'tanahsubur098'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -123,7 +123,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'predis'),
-            'prefix' => Str::slug(env('APP_NAME', 'laravel'), '_').'_database_',
+            'prefix' => Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_',
         ],
 
         'default' => [

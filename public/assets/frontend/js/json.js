@@ -1,3 +1,3 @@
 (function($) {
-  console.log("berhasil");
+    console.log("Berhasil");
 })(jQuery);

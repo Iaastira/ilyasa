@@ -15,8 +15,8 @@ class KategoriController extends Controller
      */
     public function index()
     {
-        $kategori = kategori::orderBy('created_at', 'desc')->get();
-        return view('admin.kategori.index',compact('kategori'));
+        $kategori = Kategori::orderBy('created_at', 'desc')->get();
+        return view('backend.kategori.index', compact('kategori'));
     }
 
     /**
@@ -26,7 +26,7 @@ class KategoriController extends Controller
      */
     public function create()
     {
-        return view('admin.kategori.create');
+        return view('backend.kategori.create');
     }
 
     /**
@@ -37,16 +37,17 @@ class KategoriController extends Controller
      */
     public function store(Request $request)
     {
-        $request ->validate([
-            'nama_kategori'=> 'required|unique:kategoris',
+        $request->validate([
+            'nama_kategori' => 'required|unique:kategoris'
         ]);
         $kategori = new Kategori();
         $kategori->nama_kategori = $request->nama_kategori;
-        $kategori->slug = str_slug ($request->nama_kategori, '-');
+        $kategori->slug = str_slug($request->nama_kategori, '-');
         $kategori->save();
         Session::flash("flash_notification", [
-            "level" =>"success",
-            "message"=>"Berhasil Menyimpan data"
+            "level" => "success",
+            "message" => "Berhasil menyimpan<b>"
+                . $kategori->nama_kategori . "</b>"
         ]);
         return redirect()->route('kategori.index');
     }
@@ -59,6 +60,7 @@ class KategoriController extends Controller
      */
     public function show($id)
     {
+
         //
     }
 
@@ -71,7 +73,7 @@ class KategoriController extends Controller
     public function edit($id)
     {
         $kategori = Kategori::findOrfail($id);
-        return view('admin.kategori.edit',compact('kategori'));
+        return view('backend.kategori.edit', compact('kategori'));
     }
 
     /**
@@ -83,16 +85,17 @@ class KategoriController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $request ->validate([
-            'nama_kategori'=> 'required',
+        $request->validate([
+            'nama_kategori' => 'required'
         ]);
-        $kategori = Kategori::findOrFail($id);
+        $kategori = Kategori::findOrfail($id);
         $kategori->nama_kategori = $request->nama_kategori;
-        $kategori->slug = str_slug ($request->nama_kategori, '-');
+        $kategori->slug = str_slug($request->nama_kategori, '-');
         $kategori->save();
         Session::flash("flash_notification", [
-            "level" =>"success",
-            "message"=>"Berhasil Menyimpan data"
+            "level" => "success",
+            "message" => "Berhasil mengedit<b>"
+                . $kategori->nama_kategori . "</b>"
         ]);
         return redirect()->route('kategori.index');
     }
@@ -105,10 +108,12 @@ class KategoriController extends Controller
      */
     public function destroy($id)
     {
-        $kategori = Kategori::findOrfail($id)->delete();
+        $kategori = Kategori::findOrfail($id);
+        if (!Kategori::destroy($id)) return redirect()->back();
         Session::flash("flash_notification", [
-            "level" =>"success",
-            "message"=>"Berhasil Menyimpan data"
+            "level" => "Success",
+            "message" => "Berhasil menghapus<b>"
+                . $kategori->nama_kategori . "</b>"
         ]);
         return redirect()->route('kategori.index');
     }
