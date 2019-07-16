@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Egames - Gaming Magazine Template</title>
+    <title>GAVI - Gaming Magazine Template</title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{asset ('assets/egames/img/core-img/favicon.ico')}}">
@@ -144,7 +144,7 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">
                             <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
-                                <h2 data-animation="fadeInUp" data-delay="400ms">The Power of Gaming</h2>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">GAVI Gaming Review Iaastira</h2>
                                 <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">
                             <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
-                                <h2 data-animation="fadeInUp" data-delay="400ms">The Power of Gaming</h2>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">The Experience Gaming</h2>
                                 <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
                             </div>
                         </div>
