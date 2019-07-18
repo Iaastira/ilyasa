@@ -86,8 +86,8 @@
                                     <li><a href="/">Home</a></li>
                                     <li><a href="game-review.html">Games</a>
                                         <ul class="dropdown">
-                                            <li><a href="game-review.html">Game Review</a></li>
-                                            <li><a href="single-game-review.html">Single Game Review</a></li>
+                                            <li><a href="review">Game Review</a></li>
+
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
@@ -100,17 +100,17 @@
                                     </li>
                                     <li><a href="post.html">Articles</a>
                                         <ul class="dropdown">
-                                            <li><a href="post.html">Articles</a></li>
-                                            <li><a href="single-post.html">Single Articles</a></li>
+                                            <li><a href="mypost">Articles</a></li>
+
                                         </ul>
                                     </li>
                                     <li><a href="single-game-review.html">Reviews</a>
                                         <ul class="dropdown">
-                                            <li><a href="game-review.html">Game Review</a></li>
-                                            <li><a href="single-game-review.html">Single Game Review</a></li>
+                                            <li><a href="review">Game Review</a></li>
+
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->

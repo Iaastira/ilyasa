@@ -87,7 +87,7 @@
                                     <li><a href="game-review.html">Games</a>
                                         <ul class="dropdown">
                                             <li><a href="game-review.html">Game Review</a></li>
-                                            <li><a href="single-game-review.html">Single Game Review</a></li>
+
                                         </ul>
                                     </li>
                                     <li><a href="#">Pages</a>
@@ -101,16 +101,11 @@
                                     <li><a href="post.html">Articles</a>
                                         <ul class="dropdown">
                                             <li><a href="post.html">Articles</a></li>
-                                            <li><a href="single-post.html">Single Articles</a></li>
+
                                         </ul>
                                     </li>
-                                    <li><a href="single-game-review.html">Reviews</a>
-                                        <ul class="dropdown">
-                                            <li><a href="game-review.html">Game Review</a></li>
-                                            <li><a href="single-game-review.html">Single Game Review</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -144,8 +139,8 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">
                             <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
-                                <h2 data-animation="fadeInUp" data-delay="400ms">GAVI Gaming Review Iaastira</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">GAVI Gaming Review Magazine</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms"> Need Information for Super Gaming?Support me for check mysite! .</p>
                             </div>
                         </div>
                     </div>
@@ -160,7 +155,7 @@
                         <div class="col-12 col-lg-9">
                             <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
                                 <h2 data-animation="fadeInUp" data-delay="400ms">The Experience Gaming</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
+                                <p data-animation="fadeInUp" data-delay="700ms"> This is gaming information .</p>
                             </div>
                         </div>
                     </div>
@@ -283,10 +278,10 @@
                     <div class="single-games-slide">
                         <img src="{{asset ('assets/egames/img/bg-img/53.jpg')}}" alt="">
                         <div class="slide-text">
-                            <a href="#" class="game-title">Bloodborne</a>
+                            <a href="#" class="game-title">BlackDesertOnline</a>
                             <div class="meta-data">
                                 <a href="#">User: 9.1/10</a>
-                                <a href="#">Adventure</a>
+                                <a href="#">MMORPG</a>
                             </div>
                         </div>
                     </div>

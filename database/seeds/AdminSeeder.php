@@ -11,10 +11,10 @@ class AdminSeeder extends Seeder
      */
     public function run()
     {
-        $user = new \App\User;
-        $user->name = "Admin";
-        $user->email = "Admin@gmail.com";
-        $user->password = bcript("rahasia");
-        $user->save();
+        App\User::create([
+            'name' => 'Ilyas',
+            'email' => 'admin@gmail.com',
+            'password' => bcrypt('rahasia')
+        ]);
     }
 }
