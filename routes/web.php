@@ -11,33 +11,35 @@
 |
 */
 //Route Template Vizew
-Route::get('/', function () {
-    return view('index');
+Route::group(['prefix' => '/'], function () {
+    Route::get('/', 'FrontController@index')->name('index');
+    
+    Route::get('/contact', function () {
+        return view('contact');
+    });
+    Route::get('/review', function () {
+        return view('review');
+    });
+    Route::get('/archive-grid', function () {
+        return view('archive-grid');
+    });
+    Route::get('/mypost', function () {
+        return view('mypost');
+    });
+    Route::get('/video-post', function () {
+        return view('video-post');
+    });
+    Route::get('/typography', function () {
+        return view('typography');
+    });
+    Route::get('/masuk', function () {
+        return view('masuk');
+    });
+    Route::get('/welcome', function () {
+        return view('welcome');
+    });
 });
-Route::get('/contact', function () {
-    return view('contact');
-});
-Route::get('/review', function () {
-    return view('review');
-});
-Route::get('/archive-grid', function () {
-    return view('archive-grid');
-});
-Route::get('/mypost', function () {
-    return view('mypost');
-});
-Route::get('/video-post', function () {
-    return view('video-post');
-});
-Route::get('/typography', function () {
-    return view('typography');
-});
-Route::get('/masuk', function () {
-    return view('masuk');
-});
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+
 //Route Json Siswa
 Route::get('/siswa', function () {
     return view('siswa');
@@ -75,3 +77,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'HomeController@logout')->name('logout');
+

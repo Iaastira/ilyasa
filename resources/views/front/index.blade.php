@@ -9,13 +9,13 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>GAVI - Gaming Magazine Template</title>
+    <title>Egames - Gaming Magazine Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{asset ('assets/egames/img/core-img/favicon.ico')}}">
+    <link rel="icon" href="/assets/egames/img/core-img/favicon.ico">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{asset ('assets/egames/style.css')}}">
+    <link rel="stylesheet" href="/assets/egames/style.css">
 
 </head>
 
@@ -39,14 +39,14 @@
         <div class="hero-post-slides owl-carousel">
 
             <!-- Single Slide -->
-            <div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg')}});">
+            <div class="single-slide bg-img bg-overlay" style="background-image: url(/assets/egames/img/bg-img/1.jpg);">
                 <!-- Blog Content -->
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">
                             <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
-                                <h2 data-animation="fadeInUp" data-delay="400ms">GAVI Gaming Review Magazine</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms"> Need Information for Super Gaming?Support me for check mysite! .</p>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">The Power of Gaming</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
                             </div>
                         </div>
                     </div>
@@ -54,14 +54,14 @@
             </div>
 
             <!-- Single Slide -->
-            <div class="single-slide bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg')}});">
+            <div class="single-slide bg-img bg-overlay" style="background-image: url(/assets/egames/img/bg-img/2.jpg);">
                 <!-- Blog Content -->
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-lg-9">
                             <div class="blog-content" data-animation="fadeInUp" data-delay="100ms">
-                                <h2 data-animation="fadeInUp" data-delay="400ms">The Experience Gaming</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms"> This is gaming information .</p>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">The Power of Gaming</h2>
+                                <p data-animation="fadeInUp" data-delay="700ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique justo id elit bibendum pharetra non vitae lectus. Mauris libero felis, dapibus a ultrices sed, commodo vitae odio. Sed auctor tellus quis arcu tempus, egestas tincidunt.</p>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                 <!-- Single Games Area -->
                 <div class="col-12 col-md-4">
                     <div class="single-games-area text-center mb-100 wow fadeInUp" data-wow-delay="100ms">
-                        <img src="{{asset ('assets/egames/img/bg-img/game1.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/game1.jpg" alt="">
                         <a href="#" class="btn egames-btn mt-30">View Games</a>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                 <!-- Single Games Area -->
                 <div class="col-12 col-md-4">
                     <div class="single-games-area text-center mb-100 wow fadeInUp" data-wow-delay="300ms">
-                        <img src="{{asset ('assets/egames/img/bg-img/game2.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/game2.jpg" alt="">
                         <a href="#" class="btn egames-btn mt-30">View Games</a>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                 <!-- Single Games Area -->
                 <div class="col-12 col-md-4">
                     <div class="single-games-area text-center mb-100 wow fadeInUp" data-wow-delay="500ms">
-                        <img src="{{asset ('assets/egames/img/bg-img/game3.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/game3.jpg" alt="">
                         <a href="#" class="btn egames-btn mt-30">View Games</a>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/50.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/50.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Grand Theft Auto V</a>
                             <div class="meta-data">
@@ -158,7 +158,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/51.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/51.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Doom</a>
                             <div class="meta-data">
@@ -170,7 +170,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/52.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/52.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">God of War</a>
                             <div class="meta-data">
@@ -182,43 +182,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/53.jpg')}}" alt="">
-                        <div class="slide-text">
-                            <a href="#" class="game-title">BlackDesertOnline</a>
-                            <div class="meta-data">
-                                <a href="#">User: 9.1/10</a>
-                                <a href="#">MMORPG</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Games -->
-                    <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/54.jpg')}}" alt="">
-                        <div class="slide-text">
-                            <a href="#" class="game-title">Persona 5</a>
-                            <div class="meta-data">
-                                <a href="#">User: 9.1/10</a>
-                                <a href="#">Action</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Games -->
-                    <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/52.jpg')}}" alt="">
-                        <div class="slide-text">
-                            <a href="#" class="game-title">God of War</a>
-                            <div class="meta-data">
-                                <a href="#">User: 9.1/10</a>
-                                <a href="#">Action</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Single Games -->
-                    <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/53.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/53.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Bloodborne</a>
                             <div class="meta-data">
@@ -230,7 +194,43 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/54.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/54.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Persona 5</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="/assets/egames/img/bg-img/52.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">God of War</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Action</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="/assets/egames/img/bg-img/53.jpg" alt="">
+                        <div class="slide-text">
+                            <a href="#" class="game-title">Bloodborne</a>
+                            <div class="meta-data">
+                                <a href="#">User: 9.1/10</a>
+                                <a href="#">Adventure</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Games -->
+                    <div class="single-games-slide">
+                        <img src="/assets/egames/img/bg-img/54.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Persona 5</a>
                             <div class="meta-data">
@@ -248,7 +248,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/50.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/50.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Grand Theft Auto V</a>
                             <div class="meta-data">
@@ -260,7 +260,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/51.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/51.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Doom</a>
                             <div class="meta-data">
@@ -272,7 +272,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/52.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/52.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">God of War</a>
                             <div class="meta-data">
@@ -284,7 +284,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/53.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/53.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Bloodborne</a>
                             <div class="meta-data">
@@ -296,7 +296,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/54.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/54.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Persona 5</a>
                             <div class="meta-data">
@@ -308,7 +308,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/52.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/52.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">God of War</a>
                             <div class="meta-data">
@@ -320,7 +320,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/53.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/53.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Bloodborne</a>
                             <div class="meta-data">
@@ -332,7 +332,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/54.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/54.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Persona 5</a>
                             <div class="meta-data">
@@ -350,7 +350,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/50.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/50.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Grand Theft Auto V</a>
                             <div class="meta-data">
@@ -362,7 +362,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/51.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/51.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Doom</a>
                             <div class="meta-data">
@@ -374,7 +374,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/52.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/52.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">God of War</a>
                             <div class="meta-data">
@@ -386,7 +386,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/53.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/53.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Bloodborne</a>
                             <div class="meta-data">
@@ -398,7 +398,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/54.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/54.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Persona 5</a>
                             <div class="meta-data">
@@ -410,7 +410,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/52.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/52.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">God of War</a>
                             <div class="meta-data">
@@ -422,7 +422,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/53.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/53.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Bloodborne</a>
                             <div class="meta-data">
@@ -434,7 +434,7 @@
 
                     <!-- Single Games -->
                     <div class="single-games-slide">
-                        <img src="{{asset ('assets/egames/img/bg-img/54.jpg')}}" alt="">
+                        <img src="/assets/egames/img/bg-img/54.jpg" alt="">
                         <div class="slide-text">
                             <a href="#" class="game-title">Persona 5</a>
                             <div class="meta-data">
@@ -461,7 +461,7 @@
                                 <!-- Single Video Widget -->
                                 <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="100ms">
                                     <div class="video-thumbnail">
-                                        <img src="{{asset ('assets/egames/img/bg-img/14.jpg')}}" alt="">
+                                        <img src="/assets/egames/img/bg-img/14.jpg" alt="">
                                     </div>
                                     <div class="video-text">
                                         <p class="video-title mb-0">Assemble Your Squad and Join the Battle</p>
@@ -475,7 +475,7 @@
                                 <!-- Single Video Widget -->
                                 <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="200ms">
                                     <div class="video-thumbnail">
-                                        <img src="{{asset ('assets/egames/img/bg-img/15.jpg')}}" alt="">
+                                        <img src="/assets/egames/img/bg-img/15.jpg" alt="">
                                     </div>
                                     <div class="video-text">
                                         <p class="video-title mb-0">Tips to improve your game</p>
@@ -489,7 +489,7 @@
                                 <!-- Single Video Widget -->
                                 <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="300ms">
                                     <div class="video-thumbnail">
-                                        <img src="{{asset ('assets/egames/img/bg-img/16.jpg')}}" alt="">
+                                        <img src="/assets/egames/img/bg-img/16.jpg" alt="">
                                     </div>
                                     <div class="video-text">
                                         <p class="video-title mb-0">Game reviews: the best of 2018</p>
@@ -503,7 +503,7 @@
                                 <!-- Single Video Widget -->
                                 <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="400ms">
                                     <div class="video-thumbnail">
-                                        <img src="{{asset ('assets/egames/img/bg-img/17.jpg')}}" alt="">
+                                        <img src="/assets/egames/img/bg-img/17.jpg" alt="">
                                     </div>
                                     <div class="video-text">
                                         <p class="video-title mb-0">Assemble Your Squad and Join the Battle</p>
@@ -517,7 +517,7 @@
                                 <!-- Single Video Widget -->
                                 <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="500ms">
                                     <div class="video-thumbnail">
-                                        <img src="{{asset ('assets/egames/img/bg-img/18.jpg')}}" alt="">
+                                        <img src="/assets/egames/img/bg-img/18.jpg" alt="">
                                     </div>
                                     <div class="video-text">
                                         <p class="video-title mb-0">Tips to improve your game</p>
@@ -531,7 +531,7 @@
                                 <!-- Single Video Widget -->
                                 <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="600ms">
                                     <div class="video-thumbnail">
-                                        <img src="{{asset ('assets/egames/img/bg-img/14.jpg')}}" alt="">
+                                        <img src="/assets/egames/img/bg-img/14.jpg" alt="">
                                     </div>
                                     <div class="video-text">
                                         <p class="video-title mb-0">Game reviews: the best of 2018</p>
@@ -545,7 +545,7 @@
                                 <!-- Single Video Widget -->
                                 <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="700ms">
                                     <div class="video-thumbnail">
-                                        <img src="{{asset ('assets/egames/img/bg-img/15.jpg')}}" alt="">
+                                        <img src="/assets/egames/img/bg-img/15.jpg" alt="">
                                     </div>
                                     <div class="video-text">
                                         <p class="video-title mb-0">Tips to improve your game</p>
@@ -559,7 +559,7 @@
                                 <!-- Single Video Widget -->
                                 <div class="single-video-widget d-flex wow fadeInUp" data-wow-delay="800ms">
                                     <div class="video-thumbnail">
-                                        <img src="{{asset ('assets/egames/img/bg-img/16.jpg')}}" alt="">
+                                        <img src="/assets/egames/img/bg-img/16.jpg" alt="">
                                     </div>
                                     <div class="video-text">
                                         <p class="video-title mb-0">Game reviews: the best of 2018</p>
@@ -575,66 +575,66 @@
                 <div class="col-12 col-md-6 col-lg-8">
                     <div class="tab-content" id="video-tabContent">
                         <div class="tab-pane fade show active" id="video-1" role="tabpanel" aria-labelledby="video1">
-                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/45.jpg')}});">
+                            <div class="video-playground bg-img" style="background-image: url(i/assets/egames/mg/bg-img/45.jpg);">
                                 <!-- Play Button -->
                                 <div class="play-btn">
-                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="{{asset ('assets/egames/img/core-img/play.png')}}" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="/assets/egames/img/core-img/play.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="video-2" role="tabpanel" aria-labelledby="video2">
-                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/46.jpg')}});">
+                            <div class="video-playground bg-img" style="background-image: url(i/assets/egames/mg/bg-img/46.jpg);">
                                 <!-- Play Button -->
                                 <div class="play-btn">
-                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="{{asset ('assets/egames/img/core-img/play.png')}}" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="/assets/egames/img/core-img/play.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="video-3" role="tabpanel" aria-labelledby="video3">
-                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/47.jpg')}});">
+                            <div class="video-playground bg-img" style="background-image: url(i/assets/egames/mg/bg-img/47.jpg);">
                                 <!-- Play Button -->
                                 <div class="play-btn">
-                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="{{asset ('assets/egames/img/core-img/play.png')}}" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="/assets/egames/img/core-img/play.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="video-4" role="tabpanel" aria-labelledby="video4">
-                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/48.jpg')}});">
+                            <div class="video-playground bg-img" style="background-image: url(i/assets/egames/mg/bg-img/48.jpg);">
                                 <!-- Play Button -->
                                 <div class="play-btn">
-                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="{{asset ('assets/egames/img/core-img/play.png')}}" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="/assets/egames/img/core-img/play.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="video-5" role="tabpanel" aria-labelledby="video5">
-                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/49.jpg')}});">
+                            <div class="video-playground bg-img" style="background-image: url(i/assets/egames/mg/bg-img/49.jpg);">
                                 <!-- Play Button -->
                                 <div class="play-btn">
-                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="{{asset ('assets/egames/img/core-img/play.png')}}" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="/assets/egames/img/core-img/play.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="video-6" role="tabpanel" aria-labelledby="video6">
-                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/45.jpg')}});">
+                            <div class="video-playground bg-img" style="background-image: url(i/assets/egames/mg/bg-img/45.jpg);">
                                 <!-- Play Button -->
                                 <div class="play-btn">
-                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="{{asset ('assets/egames/img/core-img/play.png')}}" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="/assets/egames/img/core-img/play.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="video-7" role="tabpanel" aria-labelledby="video7">
-                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/46.jpg')}});">
+                            <div class="video-playground bg-img" style="background-image: url(i/assets/egames/mg/bg-img/46.jpg);">
                                 <!-- Play Button -->
                                 <div class="play-btn">
-                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="{{asset ('assets/egames/img/core-img/play.png')}}" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="/assets/egames/img/core-img/play.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="video-8" role="tabpanel" aria-labelledby="video8">
-                            <div class="video-playground bg-img" style="background-image: url(img/bg-img/47.jpg')}});">
+                            <div class="video-playground bg-img" style="background-image: url(i/assets/egames/mg/bg-img/47.jpg);">
                                 <!-- Play Button -->
                                 <div class="play-btn">
-                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="{{asset ('assets/egames/img/core-img/play.png')}}" alt=""></a>
+                                    <a href="https://www.youtube.com/watch?v=7HKoqNJtMTQ" class="play-button"><img src="/assets/egames/img/core-img/play.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -646,7 +646,7 @@
     <!-- ##### Video Area End ##### -->
 
     <!-- ##### Articles Area Start ##### -->
-    <section class="latest-articles-area section-padding-100-0 bg-img bg-pattern bg-fixed" style="background-image: url(img/bg-img/5.jpg')}});">
+    <section class="latest-articles-area section-padding-100-0 bg-img bg-pattern bg-fixed" style="background-image: url(/assets/egames/img/bg-img/5.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-8">
@@ -655,51 +655,21 @@
                         <h2 class="section-title mb-70 wow fadeInUp" data-wow-delay="100ms">Latest Articles</h2>
 
                         <!-- *** Single Articles Area *** -->
+                        @foreach($artikel as $data)
                         <div class="single-articles-area style-2 d-flex flex-wrap mb-30 wow fadeInUp" data-wow-delay="300ms">
                             <div class="article-thumbnail">
-                                <img src="{{asset ('assets/egames/img/bg-img/6.jpg')}}" alt="">
+                                <img src="{{ asset('assets/img/artikel/'.$data->foto)}}" alt="" style="height: 311.35px; width: 540px;">
                             </div>
                             <div class="article-content">
-                                <a href="single-post.html" class="post-title">Sony’s new releases for 2018</a>
+                                <a href="single-post.html" class="post-title">{{ $data->judul }}</a>
                                 <div class="post-meta">
                                     <a href="#" class="post-date">July 12, 2018</a>
                                     <a href="#" class="post-comments">2 Comments</a>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam.</p>
+                                <p>{!! substr($data->konten, 0, 120) !!}</p>
                             </div>
                         </div>
-
-                        <!-- *** Single Articles Area *** -->
-                        <div class="single-articles-area style-2 d-flex flex-wrap mb-30 wow fadeInUp" data-wow-delay="500ms">
-                            <div class="article-thumbnail">
-                                <img src="{{asset ('assets/egames/img/bg-img/7.jpg')}}" alt="">
-                            </div>
-                            <div class="article-content">
-                                <a href="single-post.html" class="post-title">10 Tips to be a better gamer</a>
-                                <div class="post-meta">
-                                    <a href="#" class="post-date">July 12, 2018</a>
-                                    <a href="#" class="post-comments">2 Comments</a>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam.</p>
-                            </div>
-                        </div>
-
-                        <!-- *** Single Articles Area *** -->
-                        <div class="single-articles-area style-2 d-flex flex-wrap mb-30 wow fadeInUp" data-wow-delay="700ms">
-                            <div class="article-thumbnail">
-                                <img src="{{asset ('assets/egames/img/bg-img/8.jpg')}}" alt="">
-                            </div>
-                            <div class="article-content">
-                                <a href="single-post.html" class="post-title">Microsoft has some new tips</a>
-                                <div class="post-meta">
-                                    <a href="#" class="post-date">July 12, 2018</a>
-                                    <a href="#" class="post-comments">2 Comments</a>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit arcu, scelerisque dignissim massa quis, mattis facilisis erat. Aliquam erat volutpat. Sed efficitur diam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        @endforeach
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <!-- Title -->
@@ -707,9 +677,9 @@
 
                     <!-- Single Widget Area -->
                     <div class="single-widget-area add-widget wow fadeInUp" data-wow-delay="300ms">
-                        <a href="#"><img src="{{asset ('assets/egames/img/bg-img/add.png')}}" alt=""></a>
+                        <a href="#"><img src="/assets/egames/img/bg-img/add.png" alt=""></a>
                         <!-- Side Img -->
-                        <img src="{{asset ('assets/egames/img/bg-img/side-img.png')}}" class="side-img" alt="">
+                        <img src="/assets/egames/img/bg-img/side-img.png" class="side-img" alt="">
                     </div>
                 </div>
             </div>
@@ -723,15 +693,15 @@
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="{{asset ('assets/egames/js/jquery/jquery-2.2.4.min.js')}}"></script>
+    <script src="/assets/egames/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="{{asset ('assets/egames/js/bootstrap/popper.min.js')}}"></script>
+    <script src="/assets/egames/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="{{asset ('assets/egames/js/bootstrap/bootstrap.min.js')}}"></script>
+    <script src="/assets/egames/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="{{asset ('assets/egames/js/plugins/plugins.js')}}"></script>
+    <script src="/assets/egames/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="{{asset ('assets/egames/js/active.js')}}"></script>
+    <script src="/assets/egames/js/active.js"></script>
 </body>
 
 </html>
